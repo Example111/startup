@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Globant :: Welcome to the HTML5 bootcamp</title>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  </head>
+<body>
+	<div align='center'  v-align='center' style='styles.css' >
+		Ejercicio 6<br>
+		<input type='text' value='some Text' id='tb1'><br>
+		<button id='btnAjaxEvent'>Click Me!</button>
+	
+	</div>
+	<div style='style.css' id='responseDiv' align='center' v-align='center'> </div>
+	<script type="text/javascript">
+	$( function() {
+		var URL = 'http://bootcamp.aws.af.cm/welcome/Marian';
+		var params = {
+						 type: 'GET',
+                         url: URL,
+                         dataType:'json',
+ 						 success: function(data) {
+
+ 						 		  $('#responseDiv').text(data.response) ;	
+
+ 						 		},
+ 						 error: function(data) {
+
+ 						 		 console.log('data Unavaible')	
+
+ 						 		},
+ 						
+					}
+
+		$('#btnAjaxEvent').click( function() {
+			$.ajax( params ) ; 
+
+		});
+	}
+); 
+</script>
+</body>
+
+</html>
