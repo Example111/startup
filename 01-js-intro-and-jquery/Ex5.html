@@ -7,15 +7,14 @@
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
   </head>
 <body>
-	<div align='center' style='styles.css' 
+	<div  style='styles.css' 
 		>Ejercicio 5<br>
 		<input type='text' value='some Text' id='tb1'><br>
 		<button id='btnAjaxEvent'>Click Me!</button>
 	
 	</div>
-</body>
-<script type="text/javascript">
-$( function() {
+	<script type="text/javascript">
+	$( function() {
 		var URL = 'http://bootcamp.aws.af.cm/welcome/Marian';
 		var params = {
 						 type: 'GET',
@@ -33,7 +32,8 @@ $( function() {
 			$.ajax( params ) ; 
 
 		});
-	}
-); 
+	}); 
 </script>
+</body>
+
 </html>
