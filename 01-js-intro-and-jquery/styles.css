@@ -1,0 +1,21 @@
+div { 
+		color : black ;
+		font-size: 16px ;
+		font-family: courier  ;
+		text-align: center;
+		float: center;
+		
+
+	} 
+
+.floated {
+	float: center ;
+	color : black ;
+	font-size: 16px ;
+	font-family: courier  ;
+	text-align: center;
+}
+.highlight 
+{ 
+	background-color: yellow; 
+}

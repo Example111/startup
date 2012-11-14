@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	  <meta charset="utf-8" />
+    <title>Globant :: Welcome to the HTML5 bootcamp</title>
+
+  	<link rel='stylesheet' href='styles.css'>  
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+  </head>
+<body>
+	<div id="movieDiv">
+	
+		Ejercicio 10<br>
+		<button id='btnAjaxEvent'>Get Movies!</button><br>
+		
+		
+	
+	</div>
+	<div id='responseDiv'> </div>
+	<script type="text/javascript">
+	$( function() {
+		var URL = 'http://bootcamp.aws.af.cm/movies';
+		var params = {
+						 type: 'GET',
+                         url: URL,
+                         dataType:'json',
+ 						 success: function(data) {
+ 						 	$.each(data.d.results, function(key) {
+
+
+ 						 		$('#movieDiv').append( '<img src="' +  data.d.results[key].BoxArt.LargeUrl + '"><br>' ) ;
+ 						 		$('#movieDiv').append( 'Title: '+  data.d.results[key].Name + '<br>' ); 
+ 						 		$('#movieDiv').append( 'Year: '+  data.d.results[key].ReleaseYear + '<br>' ); 
+ 						 		$('#movieDiv').append( 'Synopsis: '+  data.d.results[key].ShortSynopsis + '<br>' );	
+ 						 		$					 	 	
+ 						 		});
+ 						 		var $somediv = $('#movieDiv'),
+   								 pos      = $.extend({
+     						     width:    $somediv.outerWidth(),
+       							height:   $somediv.outerHeight()
+   								 }, $somediv.position());
+								$('<div>', {
+								    id:    'overlay',
+								    css:   {
+								        position:         'absolute',
+								        top:              pos.top,
+								        left:             pos.left,
+								        width:            pos.width,
+								        height:           pos.height,
+								        backgroundColor:  '#000',
+								        opacity:          0.50
+								    }
+								}).appendTo($somediv);
+ 						 },
+ 						 error: function() {
+ 						 			$('#responseDiv').css('color','red') ;
+									$('#responseDiv').text('Error') ;	
+ 						 		}
+					};
+
+		$('#btnAjaxEvent').click( function() {
+			$.ajax( params ) ; 
+		}); 
+});
+</script>
+</body>
+
+</html>

@@ -2,17 +2,21 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
+  	  <meta charset="utf-8" />
     <title>Globant :: Welcome to the HTML5 bootcamp</title>
+
+  	<link rel='stylesheet' href='styles.css'>  
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
   </head>
 <body>
 	<div>
-		Ejercicio 5<br>
+	
+		Ejercicio 8<br>
 		<input type='text' value='some Text' id='tb1'><br>
-		<button id='btnAjaxEvent'>Click Me!</button>
+		<button id='btnAjaxEvent'>Click Me!</button><br>
 	
 	</div>
+	<div id='responseDiv'> </div>
 	<script type="text/javascript">
 	$( function() {
 		var URL = 'http://bootcamp.aws.af.cm/welcome/Marian';
@@ -21,18 +25,22 @@
                          url: URL,
                          dataType:'json',
  						 success: function(data) {
- 						 			console.log(data.response) ;
+
+ 						 	 	 var username = data.response.replace("Welcome ", "");
+ 						 	 	  $('#responseDiv').css('color','black') ;
+ 						 	 	   $('#responseDiv').text("") ;
+ 						 		  $('#responseDiv').append('Welcome ' + ' <span class="highlight">'+username+'</span>' ) ;
  						 		},
- 						 error: function( data ) {
- 						 			console.log('Data Unavailable') ;
+ 						 error: function() {
+ 						 			$('#responseDiv').css('color','red') ;
+									$('#responseDiv').text('Error') ;	
  						 		}
-					}
+					};
 
 		$('#btnAjaxEvent').click( function() {
 			$.ajax( params ) ; 
-
-		});
-	}); 
+		}); 
+});
 </script>
 </body>
 
