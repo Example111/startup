@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+  	<meta charset="utf-8" />
+    <title>Globant :: Welcome to the HTML5 bootcamp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+  	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.js"></script>
+	<script type="text/javascript" src="functionsEx12.js"></script>
+	<style type="text/css">
+	.logo_image {
+  		text-align: center;
+  		margin: 0 auto ;
+	}
+
+	</style>
+  </head>
+<body id="pageBody">
+<div data-role="page" id="moviesPage">
+	<div  data-role="header" id="headerDiv">
+		<h3>Movies Finder</h3>
+		<div data-role="navbar">
+				<ul>
+					<li><a href="pages3/page1.html" data-theme="b"data-transition="flip">One</a></li>
+					<li><a href="pages3/page2.html" data-theme="b"data-transition="slideup">Two</a></li>
+					<li><a href="pages3/page3.html" data-theme="b"data-transition="pop">three</a></li>
+				</ul>
+		</div>
+	</div>
+	<div data-role="content"id="movieDiv">
+
+		<div data-role="button"  data-mini="true" data-icon="search" id='getMovieBtn'>
+			Get Movies!
+		</div> 
+		<p>
+		<ul data-role="listview" id="moviesList">
+			</ul>
+		</p>
+	</div>
+</div>
+</body>
+
+</html>
