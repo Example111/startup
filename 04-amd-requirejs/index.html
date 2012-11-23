@@ -1,0 +1,44 @@
+<html>
+<head>
+
+	  <title>My Sample Project</title>
+        <!-- data-main attribute tells require.js to load
+             scripts/main.js after require.js loads. -->
+            <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    	<script type="text/javascript">document.getElementsByTagName('html')[0].style.display="none";</script>
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+		<script data-main="scripts/main" src="scripts/require.js"></script>
+    </head>
+	  <body id="pageBody">
+
+	  	
+	  <div data-role="page" id="mainPage">
+	  	<div  data-role="header" id="headerDiv">
+			<h1> Hello There </h1>
+		</div>
+		<div data-role="content"id="movieDiv">
+			<div data-role="button"  data-mini="true" data-icon="search" id='speakBtn'>
+		 		Director Talk!
+			</div>
+			<div data-role="content"id="div1"></div> 
+		</div>
+	</div>
+
+	<!-- Dialog Page -->
+	<div data-role="page" id="dialogQuotes">
+
+	<div data-role="header" id="titleh">
+	</div>
+
+		<div data-role="content" id="dialogContent">	
+		</div>
+	<div data-role="footer">
+		<h4>End Dialog Page</h4>
+	</div>
+</div>
+
+	   
+</body>
+
+</html>

@@ -171,10 +171,6 @@ extend(Movie.prototype,social) ;
 
 //END SOCIAL MIXIN
 
-function Actor = function()
-{
-	var name 
-}
 
 
 
