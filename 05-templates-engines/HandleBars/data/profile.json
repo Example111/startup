@@ -1,0 +1,27 @@
+{
+   "profileImg":"http://unrev.stanford.edu/presenters/alan_kay/A36.gif",
+   "name":"Alan Kay",
+   "country":"United States",
+   "currentJob":"Head of ViewPoints Research Institute",
+   "education":"Bachelor's degree in Mathematics and Molecular Biology.",
+   "area":"Computer Science",
+   "JobTitle":"Computer Scientist",
+   "contactMail":"alank@gmail.com",
+   "jobExperience":[
+      {
+         "year":"1970",
+         "company":"xerox",
+         "position":"Research"
+      },
+      {
+         "year":"1984",
+         "company":"Apple Computer",
+         "position":"Apple Fellow"
+      },
+      {
+         "year":"2005",
+         "company":"ViewPoints",
+         "position":"CEO"
+      }
+   ]
+}

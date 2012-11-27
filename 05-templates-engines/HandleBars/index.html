@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+    <title>Topic Five</title>
+    <script type="text/javascript">document.getElementsByTagName('html')[0].style.display="none";</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+    <link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+	<script data-main="scripts/main" src="scripts/require.js"></script>
+</head>
+<body id="pagebody" >
+
+	  	
+	<div data-role="page" id="mainPage">
+	
+	  	<div  data-role="header" id="headerDiv">
+			<h3> Professional Profile </h3>
+		</div>
+		<script id="professional-template" type="text/x-handlebars-template">
+		<div data-role="content" id="profileContainer">
+		
+			<div class="ui-grid-a" data-theme="b">
+				<div class="ui-block-a">
+				 	<img  src="{{profileImg}}" >
+				</div>
+				
+				<div class="ui-block-b">
+
+					<h3>{{name}}</h3>
+					<h4>{{jobTitle}}</h4>
+					<h5>{{country}} | {{area}} </h5>
+				</div>
+			</div>
+
+	  		<div class="line-separator"></div>
+			<div class="ui-grid-a" style="padding:10px;">
+				<div class="ui-block-a"><strong>Current: </strong> {{currentJob}}</div>
+				<div class="ui-block-b"><strong>Education: </strong> {{education}}</div>
+			</div>
+
+	  		<div class="line-separator"></div>
+			<div id="centered-btn"><h3>Experience</h3></div>
+			<div>
+			<ul data-role="listview">
+			{{#each jobExperience}}
+	  			<li>{{this.year}} | {{this.company}} | {{this.position}}</li>
+	  		{{/each}}
+	  		<ul>
+	  		</div>
+	  		<div class="line-separator"></div>
+	  		<div style="padding:10px;">
+	  		<a data-role="button" data-icon="info" data-mini="true" href="mailto:{{contactMail}}"id="centered-btn">Contact Me</a>
+	  		</div>
+		</div>
+
+	
+		</script>
+		
+		
+	</div>
+		
+</body>
+
+</html>
