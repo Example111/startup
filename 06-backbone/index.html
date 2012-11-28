@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Movie Backbone</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+  
+    <script type="text/javascript">document.getElementsByTagName('html')[0].style.display="none";</script>
+    <meta name="viewport" content="width=device-width, initial-scale=1"> 
+
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.2.0/jquery.mobile-1.2.0.min.css" />
+  	<script data-main="scripts/main" src="scripts/require.js"></script>
+<body id="pagebody">
+	<script id="detailed-template" type="text/x-handlebars-template">
+		<div  data-add-back-btn="true" data-role="page" id="page{{imdb_id}}">
+		<div  data-role="header" id="headerDiv">
+		<h3> Detailed View </h3>
+		</div>
+		<div data-role="content" id="profileContainer">
+		
+			<div class="ui-grid-a" data-theme="b">
+				<div class="ui-block-a">
+				 	<img  src="{{poster}}" >
+				</div>
+				
+				<div class="ui-block-b">
+
+					<h3>{{title}}</h3>
+					<h4>{{plot_simple}}</h4>
+				</div>
+			</div>
+			</div>
+	</script>
+	
+
+<div data-role="page">
+<div data-role="header">
+	<h3>Favorite Movies</h3>
+</div>
+<div data-role="content">
+	<input type="search" placeholder="Enter friend's name" id="input" />
+	<div data-role="button" class="add-input">Add Movie</div>
+	
+
+	<ul data-role="listview" data-inset="true" id="movie-list">
+		<script id="movie-template" type="text/x-handlebars-template">
+		<li id="li{{imdb_id}}"><a class="showBtn" href="" movie="{{imdb_id}}">
+			   <img src="img/movie.png">
+			   <h3>{{title}}</h3>
+			   <p>detailed View</p>
+			  </a>
+			   <a href="" class="deleteBtn" movie="{{imdb_id}}" data-icon="delete">Delete</a>
+		</li>
+		</script>
+	</ul>
+</div>
+
+</div>
+
+
+
+</body>
+</html>
+

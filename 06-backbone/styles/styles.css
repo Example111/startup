@@ -1,0 +1,45 @@
+.ui-block-a img {
+
+	width: 90% ;
+	height: auto ;
+	margin-left: 5%;
+	text-align: center;
+
+
+}
+
+ html { background-color: #333; }
+        @media only screen and (min-width: 600px){
+            .ui-page {
+                width: 600px !important;
+                margin: 0 auto !important;
+                position: relative !important;
+                border-right: 5px #666 outset !important;
+                border-left: 5px #666 outset !important;
+            }
+        }
+
+.ui-header .ui-title {
+  overflow: visible !important;
+  white-space: normal !important;
+}
+
+#centered-btn {
+
+	width: 50%; 
+	margin: 0 auto;
+	text-align: center; 
+	
+}
+
+.line-separator{
+
+height:2px;
+
+background:#717171;
+
+border-bottom:1px solid #313030;
+
+}
+
+
