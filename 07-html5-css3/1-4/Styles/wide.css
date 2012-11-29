@@ -1,0 +1,14 @@
+
+.col-setter {
+       -moz-column-count: 4;
+       -moz-column-gap: 20px;
+       -webkit-column-count: 4;
+       -webkit-column-gap: 20px;
+}
+
+#photos > img {
+	width: 550px;
+	height: 320px ;
+	vertical-align: middle;
+	text-align: center;
+}

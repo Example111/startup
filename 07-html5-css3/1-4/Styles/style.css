@@ -1,0 +1,16 @@
+
+* { 
+
+	margin: 0; padding: 0; 
+}
+body { 
+	background: #999; font: 14px Georgia, serif;
+ }
+#page-wrap { margin: 40px auto; color: white; }
+#page-wrap > div { border: 1px solid #999; padding: 20px; margin-bottom: 5px; color: black; }
+#header { background: #eee; }
+#main-content { 
+	text-align: center ;
+	background: #999;
+}
+

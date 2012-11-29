@@ -1,0 +1,508 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"movie",
+				"movielist"
+			],
+			[
+				"deta",
+				"detailsR"
+			],
+			[
+				"det",
+				"DetailedView"
+			],
+			[
+				"mov",
+				"movie-list"
+			],
+			[
+				"com",
+				"compiled"
+			],
+			[
+				"job",
+				"jobExperience"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ti",
+				"trigger"
+			],
+			[
+				"profile",
+				"profileContainer"
+			],
+			[
+				"data-",
+				"data-role"
+			],
+			[
+				"prof",
+				"profileContainer"
+			],
+			[
+				"profi",
+				"profileParser"
+			],
+			[
+				"pro",
+				"profileParser"
+			],
+			[
+				"p",
+				"profileParser"
+			],
+			[
+				"marg",
+				"margin-left"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"jqu",
+				"jquerymobile"
+			],
+			[
+				"h",
+				"h3"
+			],
+			[
+				"dial",
+				"dialogContent"
+			],
+			[
+				"jq",
+				"jquerymobile"
+			],
+			[
+				"jque",
+				"jquery"
+			],
+			[
+				"j",
+				"jquerymobile"
+			],
+			[
+				"di",
+				"dialogPage"
+			],
+			[
+				"Movie",
+				"MovieListener"
+			],
+			[
+				"pr",
+				"prototype"
+			],
+			[
+				"Do",
+				"DownloadableMovie"
+			],
+			[
+				"no",
+				"notifyListeners"
+			],
+			[
+				"li",
+				"listener"
+			],
+			[
+				"lis",
+				"listener"
+			],
+			[
+				"list",
+				"listeners"
+			],
+			[
+				"get",
+				"getInstance"
+			],
+			[
+				"MOv",
+				"Movie"
+			],
+			[
+				"set",
+				"setChanged"
+			],
+			[
+				"not",
+				"notifyObservers"
+			],
+			[
+				"Die",
+				"DieHard"
+			],
+			[
+				"MOvi",
+				"MovieListener"
+			],
+			[
+				"stop",
+				"stopped"
+			],
+			[
+				"s",
+				"stopped"
+			],
+			[
+				"liste",
+				"listeners"
+			],
+			[
+				"notify",
+				"notifyObservers"
+			],
+			[
+				"proto",
+				"prototype"
+			],
+			[
+				"m",
+				"moviesList"
+			],
+			[
+				"data",
+				"data-role"
+			],
+			[
+				"movi",
+				"movieList"
+			],
+			[
+				"u",
+				"ul	Tag"
+			],
+			[
+				"bacl",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"respo",
+				"responseDiv"
+			],
+			[
+				"c",
+				"Click"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"ja",
+				"jsonpCallback"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"head",
+				"head	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 1,
+				"line_ending": "Unix",
+				"name": "<"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 360.0,
+		"selected_items":
+		[
+		],
+		"width": 420.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/marianomartin/Documents/BootCamp/Topic6/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/styles/styles.css",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/HandleBars/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/main.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/app.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/Topic6.sublime-project",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/lib/backbone.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/lib/underscore.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/movieApi.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/functionsEx11.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/boilerplate.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/HandleBars/scripts/main.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/HandleBars/scripts/profileParser.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/router.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic6/scripts/main copy.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Dust/scripts/lib/dust.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Underscore/scripts/main.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Underscore/styles/styles.css",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Underscore/scripts/profileParser.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Underscore/data/profile.json",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Underscore/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Underscore/scripts/require.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/Underscore/scripts/parser.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/HandleBars/styles/styles.css",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/templates/professionaltpl.handlebars",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/data/profile.json",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/styles/styles.css",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/scripts/main.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/scripts/profileParser.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic4/scripts/director.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/templates/professionaltemplate.handlebars.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex9.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic1/Ex10.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/templates/professionaltemplate.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/templates/professional.handlebars.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/scripts/lib/dust.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/scripts/lib/underscore.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic5/scripts/lib/handlebars.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic4/scripts/main.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic4/scripts/movie.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic4/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/functionsEx12.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic4/scripts/lib/mobile.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic4/scripts/lib/jquery.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex12.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic3/scripts/main.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex11.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic4/scripts/Movie.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic3/scripts/movie.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic3/movie",
+		"/Users/marianomartin/Documents/BootCamp/Topic3/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic3/require.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic3/main.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic3/Ex1.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/functionsEx10.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages3/sample1.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex10.html",
+		"/Users/marianomartin/Documents/BootCamp/Ex9.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/styles/styles.css",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages2/page2.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages/page1.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/functionsEx6.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages/page2.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages3/page3.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages2/dialog.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages2/page3.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages2/page1.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex8.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex7.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex6.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/functionsEx5.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex5.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/functions.js",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex4.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex3.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex1.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/Ex2.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages/page3.html",
+		"/Users/marianomartin/Documents/BootCamp/Topic2/pages/sample1.html",
+		"/Users/marianomartin/Documents/BootCamp/styles.css",
+		"/Users/marianomartin/Documents/BootCamp/Ex8.html",
+		"/Users/marianomartin/Documents/BootCamp/movies.xml",
+		"/Users/marianomartin/Documents/BootCamp/Ex10.html",
+		"/Users/marianomartin/startup/01-js-intro-and-jquery/Ex8.html",
+		"/Users/marianomartin/Documents/BootCamp/Ex7.html",
+		"/Users/marianomartin/Documents/BootCamp/Ex6.html",
+		"/Users/marianomartin/Documents/BootCamp/Ex5.html",
+		"/Users/marianomartin/Documents/BootCamp/functions.js",
+		"/Users/marianomartin/Documents/BootCamp/Test1/index.html",
+		"/Users/marianomartin/Documents/BootCamp/Test1/Ex4.html",
+		"/Users/marianomartin/Documents/BootCamp/Test1/Ex3.html",
+		"/Users/marianomartin/Documents/BootCamp/Test1/Ex1.html",
+		"/Users/marianomartin/Documents/BootCamp/Test1/Ex2.html",
+		"/Users/marianomartin/Dropbox/Public/a.json",
+		"/Users/marianomartin/Documents/BootCamp/Test1/jquery.js",
+		"/Users/marianomartin/Documents/BootCamp/index.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"bindAll",
+			"compile",
+			"($)",
+			"()",
+			"};\n",
+			"favicon.ico",
+			"favicon",
+			"	\n",
+			"=()\";",
+			"$.ajax",
+			"	</script>\n  	<script type=\"text/javascript\">\n  	$(document).ready(function() {\n  		alert('Page ready') ;\n \n	});\n  	</script>",
+			"document",
+			"ready"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 1,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1,
+								1
+							]
+						],
+						"settings":
+						{
+							"auto_name": "<",
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/Users/marianomartin/Documents/BootCamp/Topic5/styles/styles.css"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 232.0,
+	"status_bar_visible": true
+}

@@ -1,0 +1,11 @@
+
+.col-setter {
+	border: 1px solid #999;
+  
+}
+
+#photos > img {
+	height: 0px;
+	width: 0px;
+	visibility: hidden;
+}
