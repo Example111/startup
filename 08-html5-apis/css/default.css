@@ -1,0 +1,137 @@
+.lineSeparator{
+
+	height:2px;
+	background:#717171;
+	border-bottom:1px solid #313030;
+}
+
+
+body{
+	background:gray;
+	font-family: serif;
+	font-size: 14px;
+	color: black;
+}
+
+.page-wrap{
+	width: 750px;
+	margin: 0 auto;
+	position: relative;
+	background: #999;
+	height: 100%;
+}
+#menu
+{
+
+	margin-top: 0;
+	text-align: center;
+	border-bottom:6px double gray;
+}
+#menu li
+{
+	display:inline;
+
+}
+
+
+#menu a:link,a:visited
+{
+	font-weight:bold;
+	color:#FFFFFF;
+	background-color:#3366CC;
+	text-align:center;
+	padding:15px;
+	text-decoration:none;
+	text-transform:uppercase;
+}
+#menu a:hover,a:active
+{
+	
+	background-color:#3399CC;
+}
+
+.topHeader{
+	padding-top: 10px;
+	text-align: center;
+}
+#logo img {
+	width: 20%;
+	height: auto;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border: 4px solid #313030;
+
+}
+.mainContent { 
+	margin-top:0;
+	margin: 40px auto; 
+	color: black; 
+	text-align: justify;
+}
+
+.mainContent  article { 
+	padding: 20px; 
+	margin-left: 20px;
+	margin-right: 20px;
+	background-color: #eee;
+	-moz-box-shadow: 10px 10px 10px #000; /* Firefox */
+  -webkit-box-shadow: 10px 10px 10px #000; /* Safari, Chrome */
+  box-shadow: 10px 10px 10px #000; 
+	
+	margin-bottom: 20px;  
+}
+
+.mainContent h2{
+	text-align: center;
+}
+.square {
+   width:100px;
+   height:100px;
+   display:block;
+   overflow:hidden;
+   float:left;
+   background: navy;
+   border:1px #000 solid;
+   margin: 5px;
+}
+
+#mapcanvas {
+	position: relative;
+	margin: 40px;
+
+	width: 550px;
+	height: 440px;
+}
+
+.mainContent textarea {
+	resize:none;
+	 display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+	width: 90%;
+	height: 300px; 
+}
+
+.codeArea h2 {
+	text-align: center ;
+}
+
+
+
+
+footer {
+	position:absolute;
+	width:100%;
+	bottom: 0;
+	background:#ddd;
+	border-top:6px double gray;
+}
+footer p {
+		padding:1em;
+		margin:0;
+	}
+	
+
+
