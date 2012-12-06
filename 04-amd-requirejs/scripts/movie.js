@@ -1,5 +1,3 @@
-
-
 define( 
 	['director'],
 	function (Director) {
@@ -13,24 +11,25 @@ define(
 	//Public Members
 	Movie.prototype = {
 		constructor: Movie,
-		get: function (key){
+		get: function (key) {
 			return attributes[key] ;
 		},
-		set: function (key,value){
+		set: function (key, value) {
 			attributes[key] = value ;
 		},
 
-		play: function(){
+		play: function() {
+			console.log('Event: Play');
 			
 		},
 
-		stop: function(){
+		stop: function() {
 			console.log('Event: Stop');
 
-			}
-		};
-		return Movie ;		
-	});
+		}
+	};
+	return Movie ;		
+});
 
 
 //END SOCIAL MIXIN

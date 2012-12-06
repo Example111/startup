@@ -6,7 +6,7 @@ require.config({
         'underscore'  : 'lib/underscore',
         'handlebars'  :  'lib/handlebars',
         'dust'        :  'lib/dust'
-     },
+    },
 
     shim: { 
 
@@ -19,8 +19,7 @@ require.config({
 
 });
 
-require(['jquerymobile','profileParser'], function(mobile, ProfileParser)
-{
+require(['jquerymobile','profileParser'], function(mobile, ProfileParser) {
     document.getElementsByTagName('html')[0].style.display="block";
     $( function() {
         var result ;
@@ -31,22 +30,20 @@ require(['jquerymobile','profileParser'], function(mobile, ProfileParser)
             dataType: "json",
             type: 'GET',
             success: function(data) { 
-                result = Parser.parse(source,data) ;
-            
+                result = Parser.parse(source, data) ;
             },
             error : function() { 
                 console.log("error")
             }
 
         }).done( function() { 
-            $(result).appendTo('#mainPage').trigger( "create" ) ;
-        
+            $(result).appendTo('#mainPage').trigger("create") ;
+
         }) ;
 
 
-       
+
 
     });
 
 });
- 
