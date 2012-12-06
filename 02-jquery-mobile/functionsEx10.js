@@ -2,8 +2,8 @@ $( function() {
 	var URL = 'http://bootcamp.aws.af.cm/movies';
 	var params = {
 		type: 'GET',
-		                        url: URL,
-		                        dataType:'json',
+		url: URL,
+		dataType:'json',
 		success: function(data) {
 			$.each(data.d.results, function(key,movie) {
 

@@ -30,7 +30,7 @@ Movie.prototype.addListener = function(listener) {
 Movie.prototype.removeListener = function(listener) {
 	listeners.splice(listeners.indexOf(listener), 1);
 };
-Movie.prototype.Listeners = function(state) {
+Movie.prototype.notifyListeners = function(state) {
 	console.log( 'Event : ' + state ) ;
 		for(var i = 0; i < this.listeners.length ; i++){
 			this.listeners[i].update(state,this);
@@ -66,10 +66,10 @@ function MovieListener() {
 };
 
 MovieListener.prototype.update = function(state, movie) {
-	if ( state == 'play') {
+	if ( state === 'play') {
 		console.log('playing ' + movie.get('title') ) ;
 	}
-	else if ( state == 'stop') {
+	else if ( state === 'stop') {
 		console.log( movie.get('title') + ' stopped') ;
 	}
 
@@ -82,17 +82,16 @@ var Movie = (function () {
 	//Private Members
 	var attributes = {};
 	var listeners = [];
-	 attributes['state'] = 'idle' ;
+	attributes['state'] = 'idle' ;
 
 
-	var notifyListeners = function(state,movie){
-				for( var i = 0; i < listeners.length ; i++ ){
-					listeners[i].update(state,movie) ;
-				}				
+	var notifyListeners = function(state, movie) {
+		for( var i = 0; i < listeners.length ; i++ ){
+			listeners[i].update(state,movie) ;
+		}				
 	};
 
-	var setChanged = function(state,movie)
-	{
+	var setChanged = function(state, movie) {
 		movie.set('state', state );
 		notifyListeners(state,movie) ;
 	}
@@ -112,14 +111,14 @@ var Movie = (function () {
 
 		play: function(){
 			console.log('Event: Play');
-			if ( this.get('state')!= 'play' ) {
+			if ( this.get('state')!=='play' ) {
 				setChanged( 'play',this);
 			}
 		},
 
-		stop: function(){
+		stop: function() {
 			console.log('Event: Stop') ;
-			if (this.get('state')!= 'stop'){
+			if (this.get('state')!== 'stop'){
 				setChanged('stop',this);
 			}
 		},
@@ -149,12 +148,12 @@ DownloadableMovie.prototype.download = function() {
 
 //Extends and Social Mixin 
 function extend(destination, source) {
-  for (var k in source) {
-    if (source.hasOwnProperty(k)) {
-      destination[k] = source[k];
-    }
-  }
-  return destination; 
+	for (var k in source) {
+		if (source.hasOwnProperty(k)) {
+			destination[k] = source[k];
+		}
+	}
+	return destination; 
 }
 
 
