@@ -1,43 +1,39 @@
 
 <!DOCTYPE html>
 <html>
-  <head>
+<head>
     <meta charset="utf-8" />
     <title>Globant :: Welcome to the HTML5 bootcamp</title>
+    <link href="styles.css" rel="stylesheet" />
     <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
-  </head>
+</head>
 <body>
+
 	<div>
 		Ejercicio 6<br>
-		<input type='text' value='some Text' id='tb1'><br>
+		<input type="text" value="some Text" id="testTextBox"><br>
 		<button id='btnAjaxEvent'>Click Me!</button>
-	
 	</div>
 
-	<div id='responseDiv'> </div>
+	<div id="responseDiv"> </div>
 	<script type="text/javascript">
+	
 	$( function() {
 		var URL = 'http://bootcamp.aws.af.cm/welcome/Marian';
 		var params = {
-						 type: 'GET',
-                         url: URL,
-                         dataType:'json',
- 						 success: function(data) {
-
- 						 		  $('#responseDiv').text(data.response) ;	
-
- 						 		},
- 						 error: function(data) {
-
- 						 		 console.log('data Unavaible')	
-
- 						 		},
- 						
-					}
+			type: 'GET',
+            url: URL,
+            dataType:'json',
+ 			success: function(data) {
+				$('#responseDiv').text(data.response) ;
+			},
+ 			error: function(data) {
+				console.log('data Unavaible')	
+			},				
+		}
 
 		$('#btnAjaxEvent').click( function() {
 			$.ajax( params ) ; 
-
 		});
 	}
 ); 
