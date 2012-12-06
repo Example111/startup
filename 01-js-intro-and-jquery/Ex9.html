@@ -26,18 +26,17 @@
 			                        url: URL,
 			                        dataType:'json',
 			success: function(data) {
-				$.each(data.d.results, function(key) {
+				$.each(data.d.results, function(key,value) {
 					$('#movieDiv')
-					.append( '<img src="' +  data.d.results[key].BoxArt.LargeUrl + '"><br>' ) 
-					.append( 'Title: '+  data.d.results[key].Name + '<br>' )
-					.append( 'Year: '+  data.d.results[key].ReleaseYear + '<br>' )
-					.append( 'Synopsis: '+  data.d.results[key].ShortSynopsis + '<br>' );
-
+					.append( '<img src="' +  value.BoxArt.LargeUrl + '"><br>' ) 
+					.append( 'Title: '+ value.Name + '<br>' )
+					.append( 'Year: '+  value.ReleaseYear + '<br>' )
+					.append( 'Synopsis: '+  value.ShortSynopsis + '<br>' );
 				});
 			},
 			error: function() {
 				$('#responseDiv')
-				.css('color','red') ;
+				.css('color','red') 
 				.text('Error') ;	
 			}
 		};

@@ -23,18 +23,18 @@
 			           url: URL,
 			           dataType:'json',
 			success: function(data) {
-				$.each(data.d.results, function(movie) {
+				$.each(data.d.results, function(index,value) {
 					$('#movieDiv')
-					.append( '<img src="' +  movie.BoxArt.LargeUrl + '"><br>' )
-					.append( 'Title: '+   movie.Name + '<br>' )
-					.append( 'Year: ' +  movie.ReleaseYear + '<br>' )
-					.append( 'Synopsis: ' +  movie.ShortSynopsis + '<br>' );					 	 	
+					.append( '<img src="' +  value.BoxArt.LargeUrl + '"><br>' )
+					.append( 'Title: '+   value.Name + '<br>' )
+					.append( 'Year: ' +  value.ReleaseYear + '<br>' )
+					.append( 'Synopsis: ' +  value.ShortSynopsis + '<br>' );					 	 	
 				});
 				var $overlayDiv = $('#movieDiv'),
 				pos      = $.extend({
-					width:    $somediv.outerWidth(),
-					height:   $somediv.outerHeight()
-				}, $somediv.position());
+					width:    $overlayDiv.outerWidth(),
+					height:   $overlayDiv.outerHeight()
+				}, $overlayDiv.position());
 				$('<div>', {
 					id:    'overlay',
 					css:   {
@@ -49,7 +49,7 @@
 				}).appendTo($overlayDiv);
 			},
 			error: function() {
-				$('#responseDiv').
+				$('#responseDiv')
 				.css('color','red') 
 				.text('Error') ;	
 			}
